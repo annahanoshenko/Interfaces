@@ -8,8 +8,8 @@ namespace Transports
 {
     internal class Car : IVehicle
     {
-        public int PassengersCount {  get; set; }  
-        public int FuelLevel {  get; set; }
+        public int PassengersCount {  get; set; }
+        public int FuelLevel { get; set; } = 0;
 
         public Car(int passengersCount)
         {

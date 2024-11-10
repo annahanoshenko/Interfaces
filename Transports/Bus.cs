@@ -9,7 +9,7 @@ namespace Transports
     internal class Bus : IVehicle
     {
         public int MaxPassengerCount { get; set; }
-        public int FuelLevel {  get; set; } 
+        public int FuelLevel { get; set; } = 0;
 
         public Bus(int maxPassengerCount)
         {
