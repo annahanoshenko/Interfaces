@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankSystem", "BankSystem\Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transports", "Transports\Transports.csproj", "{1CA308CD-28BE-4FE5-ADA2-5F626A9ABB25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance of interfaces", "Inheritance of interfaces\Inheritance of interfaces.csproj", "{489F04D6-EC2A-4407-82D5-3B5CC23BA085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment processing system", "Payment processing system\Payment processing system.csproj", "{167915ED-C6FF-4663-9E97-E8023AD15C43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{1CA308CD-28BE-4FE5-ADA2-5F626A9ABB25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CA308CD-28BE-4FE5-ADA2-5F626A9ABB25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CA308CD-28BE-4FE5-ADA2-5F626A9ABB25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{489F04D6-EC2A-4407-82D5-3B5CC23BA085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489F04D6-EC2A-4407-82D5-3B5CC23BA085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{489F04D6-EC2A-4407-82D5-3B5CC23BA085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489F04D6-EC2A-4407-82D5-3B5CC23BA085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167915ED-C6FF-4663-9E97-E8023AD15C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167915ED-C6FF-4663-9E97-E8023AD15C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167915ED-C6FF-4663-9E97-E8023AD15C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167915ED-C6FF-4663-9E97-E8023AD15C43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

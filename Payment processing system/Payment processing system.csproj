@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B38C4827-3AF8-4515-9B06-35EAB52A2467}</ProjectGuid>
+    <ProjectGuid>{167915ED-C6FF-4663-9E97-E8023AD15C43}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BankSystem</RootNamespace>
-    <AssemblyName>BankSystem</AssemblyName>
+    <RootNamespace>Payment_processing_system</RootNamespace>
+    <AssemblyName>Payment processing system</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BankAccountPaymentProcessor.cs" />
-    <Compile Include="ClCreditCardPaymentProcessor.cs" />
-    <Compile Include="IPaymentProcessor.cs" />
+    <Compile Include="CreditCardPayments.cs" />
+    <Compile Include="DigitalWalletPaymentProcessor.cs" />
+    <Compile Include="IPaymentMethod.cs" />
+    <Compile Include="PaymentService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

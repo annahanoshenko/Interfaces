@@ -26,13 +26,13 @@ namespace Interface
         }
     }
 
-    class DbDataProvider : IDataProvider
-    {
-        public string GetData()
-        {
-            return "Data from DB";
-        }
-    }
+    //class DbDataProvider : IDataProvider
+    //{
+    //    public string GetData()
+    //    {
+    //        return "Data from DB";
+    //    }
+    //}
 
     class FileDataProvider : IDataProvider
     {
@@ -56,7 +56,7 @@ namespace Interface
         static void Main(string[] args)
         {
             IDataProcessor dataProcessor = new ConsoleDataProcessor();
-            dataProcessor.ProcessData(new DbDataProvider());
+            //dataProcessor.ProcessData(new DbDataProvider());
             dataProcessor.ProcessData(new APIDataProvider());
             dataProcessor.ProcessData(new FileDataProvider());
         }

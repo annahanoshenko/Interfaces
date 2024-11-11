@@ -11,5 +11,4 @@ namespace BankSystem
         void ProcessPayment(decimal amount);
     }
     
-    
 }
